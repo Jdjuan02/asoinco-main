@@ -13,6 +13,7 @@ body{
 .imagen1{
     width: 150px;
     height: 150px;
+    border-radius: 500%;
 }
 .inv1{
     font-size: 19px;
@@ -66,7 +67,7 @@ body{
     height: 1px;
 }
 .colorlogo{
-    background: rgb(3, 120, 3);
+    background: rgb(104, 62, 218);
 }
 .carusel{
     width: 100%;
@@ -123,4 +124,20 @@ body{
 }
 .alto{
     height: 415px;
+}
+
+/* REDES */
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+}
+.social-icons a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.social-icons a:hover {
+    color: #007bff; /* Cambia el color al pasar el mouse */
 }

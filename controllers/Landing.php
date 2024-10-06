@@ -5,7 +5,7 @@
         // index.view.php
         public function index(){            
             require_once "views/roles/business/header.php";
-            require_once "views/business/index.view.php";            
+            require_once "views/principal/index.view.php";            
             require_once "views/roles/business/footer.php";
         }
         // Mision
@@ -36,14 +36,14 @@
         
         public function contactanos(){            
             require_once "views/roles/business/header.php";
-            require_once "views/modules/contactanos/contactanos.view.php";            
+            require_once "views/principal/contactanos.view.php";            
             require_once "views/roles/business/footer.php";
         }
         
         // Iniciar Sesion
         public function iniciar_sesion(){            
             require_once "views/roles/business/header.php";
-            require_once "views/business/iniciar_sesion.view.php";            
+            require_once "views/principal/iniciar_sesion.view.php";            
             require_once "views/roles/business/footer.php";
         }
         // pagina Iniciar sesion
@@ -62,7 +62,7 @@
         // Crear usuario
         public function crear_usuario(){            
             require_once "views/roles/business/header.php";
-            require_once "views/business/crear_usuario.view.php";            
+            require_once "views/modules/crear_usuario/crear_usuario.view.php";            
             require_once "views/roles/business/footer.php";
         }
         
